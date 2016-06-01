@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Component Test</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head> 
+<body class="container">
+    <h1>Hello</h1>
+    <div id="container" data-ng-cloak>
+        <movie-list myname="'chan'"></movie-list>
+        <movie-list myname="'hansi'"></movie-list>
+    </div>
+        
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="app/app.module.js" type="text/javascript"></script>
+    <script src="app/app.component.js" type="text/javascript"></script>
+</body>
+</html>

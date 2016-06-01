@@ -1,0 +1,15 @@
+ <h1>{{vm.myname}}</h1>
+<div data-ng-repeat="movie in vm.movies" class="row"> 
+   
+    <div class="col-xs-6">
+        <div class="row">
+            <div class="col-xs-3">{{movie.title}}</div>
+            <div class="col-xs-3">{{movie.length}}</div>
+            <div class="col-xs-3">{{movie.rating}}</div>
+        </div>
+    </div>
+    <div class="col-xs-6 btn-group">
+        <button class="btn btn-default" ng-click="vm.upRating(movie)">UP</button>
+        <button class="btn btn-default" ng-click="vm.downRating(movie)">Down</button>
+    </div>
+</div>
