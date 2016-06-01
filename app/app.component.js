@@ -38,4 +38,5 @@
         controller: ['$http', Controller]       
     });
     
+    angular.bootstrap(document.getElementById('container'), ['app']);
 })();
